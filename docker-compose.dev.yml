@@ -1,17 +1,17 @@
 version: '3'
 
 services:
-  next-app:
-    container_name: next-app
+  web:
+    container_name: duyou-web-dev
     build:
-      context: ./next-app
+      context: .
       dockerfile: dev.Dockerfile
     environment:
       ENV_VARIABLE: ${ENV_VARIABLE}
       NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
     volumes:
-      - ./next-app/src:/app/src
-      - ./next-app/public:/app/public
+      - ./src:/app/src
+      - ./public:/app/public
     restart: always
     ports:
       - 3000:3000
