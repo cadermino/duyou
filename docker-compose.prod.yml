@@ -11,7 +11,7 @@ services:
     restart: always
   nginx:
     build:
-      context: ..
+      context: .
       dockerfile: nginx/prod.Dockerfile
     ports:
       - 80:8000
