@@ -1,8 +1,7 @@
 version: '3'
 
 services:
-  web:
-    container_name: duyou-web
+  nextjs:
     build:
       context: .
       dockerfile: prod.Dockerfile
@@ -10,15 +9,13 @@ services:
         ENV_VARIABLE: ${ENV_VARIABLE}
         NEXT_PUBLIC_ENV_VARIABLE: ${NEXT_PUBLIC_ENV_VARIABLE}
     restart: always
+  nginx:
+    build:
+      context: ..
+      dockerfile: nginx/prod.Dockerfile
     ports:
-      - 80:3000
-    networks:
-      - my_network
-
-  # Add more containers below (nginx, postgres, etc.)
-
-# Define a network, which allows containers to communicate
-# with each other, by using their container name as a hostname
-networks:
-  my_network:
-    external: true
+      - 80:8000
+      - 443:443
+    volumes:
+      - /etc/ssl:/etc/nginx/ssl:ro
+    restart: always

@@ -1,8 +1,7 @@
 version: '3'
 
 services:
-  web:
-    container_name: duyou-web-dev
+  nextjs:
     build:
       context: .
       dockerfile: dev.Dockerfile
@@ -13,15 +12,13 @@ services:
       - ./src:/app/src
       - ./public:/app/public
     restart: always
+  nginx:
+    build:
+      context: ..
+      dockerfile: nginx/dev.Dockerfile
     ports:
-      - 3000:3000
-    networks:
-      - my_network
-
-  # Add more containers below (nginx, postgres, etc.)
-
-# Define a network, which allows containers to communicate
-# with each other, by using their container name as a hostname
-networks:
-  my_network:
-    external: true
+      - 80:8000
+      - 443:443
+    volumes:
+      - /etc/ssl:/etc/nginx/ssl:ro
+    restart: always

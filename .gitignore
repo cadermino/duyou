@@ -33,3 +33,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#ssl keys
+private_duyou.key
+duyou_com_mx_chain.crt
