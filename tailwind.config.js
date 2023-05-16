@@ -8,9 +8,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'underconstruction': "url('https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/underconstruction.jpg')",
+      },
+      colors: {
+        'red-duyou-primary': '#ED3734',
+        'red-duyou-secondary': '#E01826',
+        'blue-dark-duyou': '#0C1E27',
+        'gray-dark-duyou': '#DDDDDD',
+        'gray-darker-duyou': '#D5D5D5',
       },
     },
   },
