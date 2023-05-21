@@ -17,6 +17,11 @@ module.exports = {
         'gray-dark-duyou': '#DDDDDD',
         'gray-darker-duyou': '#D5D5D5',
       },
+      fontFamily: {
+        'avenir': 'Avenir, Helvetica, Arial, sans-serif',
+        'avenir-book': 'Avenir Book, Helvetica, Arial, sans-serif',
+        'avenir-black': 'Avenir Black, Helvetica, Arial, sans-serif',
+      },
     },
   },
   plugins: [],
