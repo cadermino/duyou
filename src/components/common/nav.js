@@ -8,7 +8,6 @@ export function Navigation() {
 
   function onCLick() {
     setMenuButtonState(!isMenuButtonOpen);
-    console.log('isMenuButtonOpen', isMenuButtonOpen);   
   }
   return (
     <header>
@@ -33,7 +32,7 @@ export function Navigation() {
                 w-[92px] 
                 md:w-[138px] 
                 h-full 
-                mr-3" alt="Flowbite Logo" />
+                mr-3" alt="Duyou Logo" />
           </a>
           <button onClick={onCLick} data-collapse-toggle="navbar-default" type="button" className="  
             inline-flex 
