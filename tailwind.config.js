@@ -21,6 +21,8 @@ module.exports = {
         'avenir': 'Avenir, Helvetica, Arial, sans-serif',
         'avenir-book': 'Avenir Book, Helvetica, Arial, sans-serif',
         'avenir-black': 'Avenir Black, Helvetica, Arial, sans-serif',
+        'avenir-light': 'Avenir Light, Helvetica, Arial, sans-serif',
+        'avenir-heavy': 'Avenir Heavy, Helvetica, Arial, sans-serif',
       },
     },
   },

@@ -4,9 +4,8 @@ import Link from 'next/link';
 export function Footer() {
   return (
     <footer className="
-      rounded-xl
-      px-5
-      py-10
+      rounded-t-xl
+      p-10
       bg-blue-dark-duyou 
       text-white">
       
@@ -141,8 +140,9 @@ export function Footer() {
           <div className="
             flex 
             flex-row 
-            justify-between
+            justify-start
             pb-6
+            gap-x-10
             ">
             <div className="
               w-[34.77px]

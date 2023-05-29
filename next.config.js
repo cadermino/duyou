@@ -12,7 +12,13 @@ const nextConfig = {
         port: '',
         pathname: '/www.duyou.com.mx/assets/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'placehold.co/**',
+        port: '',
+      },
     ],
+    // domains: ['placehold.co'],
   },
 }
 

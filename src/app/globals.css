@@ -40,3 +40,21 @@
   font-display: swap;
   src: url(https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/fonts/Avenir/AvenirLTStd-Black.woff2) format('woff2');
 }
+
+/* avenir light */
+@font-face {
+  font-family: 'Avenir Light';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/fonts/Avenir/AvenirLTStd-Light.woff2) format('woff2');
+}
+
+/* avenir heavy */
+@font-face {
+  font-family: 'Avenir Heavy';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/fonts/Avenir/AvenirLTStd-Heavy.woff2) format('woff2');
+}
