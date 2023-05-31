@@ -29,7 +29,7 @@ export function Hero() {
           pb-4
           ">Acelera tu negocio de manera eficiente 
           <span className="
-            font-avenir-heavy">con logística de China a México</span>
+            font-avenir-heavy"> con logística de China a México</span>
           <div className="
             hidden
             md:block
@@ -44,19 +44,19 @@ export function Hero() {
           justify-center
           ">
           <div className="
-            max-w-[612px]
-            max-h-[313px]
-            w-[358px]
-            h-[200px]
-            lg:w-[612px]
-            lg:h-[313px]
+            max-w-[670px]
+            max-h-[856px]
+            w-[335px]
+            h-[428px]
+            lg:w-[335px]
+            lg:h-[428px]
             block
             relative
             ">
             <Image
-              src="https://placehold.co/358x200.png"
+              src="https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/container_home%402x.png"
               fill
-              alt="Duyou Logo"
+              alt="Duyou container"
 
             />
           </div>

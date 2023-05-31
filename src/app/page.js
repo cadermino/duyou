@@ -1,11 +1,13 @@
 import Image from 'next/image';
 import { Hero } from "../components/home/hero";
+import { Process } from "../components/home/process";
 
 export default function Page() {
   return (
     <>
       <main>
         <Hero/>
+        <Process/>
         <article className="
           ">
           {/* <h2>sub heading of the document</h2>

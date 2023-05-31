@@ -16,6 +16,7 @@ module.exports = {
         'blue-dark-duyou': '#0C1E27',
         'gray-dark-duyou': '#DDDDDD',
         'gray-darker-duyou': '#D5D5D5',
+        'gray-dark-secondary-duyou': '#101521',
       },
       fontFamily: {
         'avenir': 'Avenir, Helvetica, Arial, sans-serif',

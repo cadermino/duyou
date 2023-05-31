@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Investigación de productos",
+    "text": "Ya sea que tengas el producto elegido o no, nosotros nos encargamos de encontrar la mejor opción precio/calidad de acuerdo a tus necesidades",
+    "image": "https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/process_1.svg",
+    "url": "test"
+  },
+  {
+    "title": "Diagnóstico de fábrica.",
+    "text": "Ya sea que tengas el producto elegido o no, nosotros nos encargamos de encontrar la mejor opción precio/calidad de acuerdo a tus necesidades",
+    "image": "https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/process_2.svg",
+    "url": "test"
+  },
+  {
+    "title": "Producción.",
+    "text": "Ya sea que tengas el producto elegido o no, nosotros nos encargamos de encontrar la mejor opción precio/calidad de acuerdo a tus necesidades",
+    "image": "https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/process_3.svg",
+    "url": "test"
+  },
+  {
+    "title": "Inspección de mercancía.",
+    "text": "Ya sea que tengas el producto elegido o no, nosotros nos encargamos de encontrar la mejor opción precio/calidad de acuerdo a tus necesidades",
+    "image": "https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/process_4.svg",
+    "url": "test"
+  },
+  {
+    "title": "Garantía de pago a proveedores.",
+    "text": "Ya sea que tengas el producto elegido o no, nosotros nos encargamos de encontrar la mejor opción precio/calidad de acuerdo a tus necesidades",
+    "image": "https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/process_5.svg",
+    "url": "test"
+  },
+  {
+    "title": "Preparación de documentos para importación.",
+    "text": "Ya sea que tengas el producto elegido o no, nosotros nos encargamos de encontrar la mejor opción precio/calidad de acuerdo a tus necesidades",
+    "image": "https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/process_6.svg",
+    "url": "test"
+  },
+  {
+    "title": "Pago de impuestos y servicios",
+    "text": "Ya sea que tengas el producto elegido o no, nosotros nos encargamos de encontrar la mejor opción precio/calidad de acuerdo a tus necesidades",
+    "image": "https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/process_7.svg",
+    "url": "test"
+  },
+  {
+    "title": "Traslado de cualquier puerto o aeropuerto",
+    "text": "Ya sea que tengas el producto elegido o no, nosotros nos encargamos de encontrar la mejor opción precio/calidad de acuerdo a tus necesidades",
+    "image": "https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/process_8.svg",
+    "url": "test"
+  },
+  {
+    "title": "Envío a toda la República Mexicana.",
+    "text": "Ya sea que tengas el producto elegido o no, nosotros nos encargamos de encontrar la mejor opción precio/calidad de acuerdo a tus necesidades",
+    "image": "https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/process_9.svg",
+    "url": "test"
+  }
+]
