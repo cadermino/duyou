@@ -9,15 +9,19 @@ export function Process() {
       ">
       <div className="
         text-center
-        text-xl
+        text-2xl
+        2xl:text-6xl
         py-8
-        ">Impulsa tu negocio con <span className="text-red-duyou-secondary">nuestro proceso de logística.</span></div>
+        ">Impulsa tu negocio con <span className="
+          text-red-duyou-secondary
+          font-avenir-black 
+          ">nuestro proceso de logística.</span></div>
       <div className="flex
         flex-row
         justify-between
         md:grid 
         md:grid-cols-3
-        md:overflow-auto
+        md:overflow-visible
         md:px-20
         overflow-scroll
         ">
@@ -31,6 +35,7 @@ export function Process() {
               rounded-3xl
               min-w-[266px]
               min-h-[334px]
+              md:min-w-[200px]
               ">
               <div className="
                 pt-8
@@ -55,18 +60,28 @@ export function Process() {
                 text-[15px]
                 mb-2
                 font-avenir-black 
+                2xl:text-5xl
                 ">{src.title}</div>
               <div className="
+                2xl:text-[22px]
                 text-[12px]
                 ">{src.text}</div>
               <div className="
                 mt-14
                 text-right
-                text-[15px]
-                underline
-                decoration-1
-                text-red-duyou-secondary
-                "><Link href={src.url}>Ver más</Link></div>
+                "><Link 
+                  className="
+                  text-[15px]
+                  2xl:text-[17px]
+                  md:bg-red-duyou-secondary
+                  md:text-white
+                  md:p-3
+                  md:no-underline
+                  md:rounded-2xl
+                  underline
+                  decoration-1
+                  text-red-duyou-secondary"
+                  href={src.url}>Ver más</Link></div>
             </div>
           );
           })}

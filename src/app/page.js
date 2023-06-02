@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import { Hero } from "../components/home/hero";
 import { Process } from "../components/home/process";
+import { RequestBanner } from "../components/home/request-banner";
+import { Tracking } from "../components/home/tracking";
 
 export default function Page() {
   return (
@@ -8,15 +10,8 @@ export default function Page() {
       <main>
         <Hero/>
         <Process/>
-        <article className="
-          ">
-          {/* <h2>sub heading of the document</h2>
-          <figure>
-            <figcaption>about the image here</figcaption>
-          </figure>
-          your content will appear here here
-          <mark> To highlight a line or paragraph</mark> */}
-        </article>
+        <RequestBanner/>
+        <Tracking/>
       </main>
       </>);
 }

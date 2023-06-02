@@ -33,8 +33,7 @@ export function Hero() {
           <div className="
             hidden
             md:block
-            text-sm
-            2xl:text-xl
+            text-[22px]
             mt-5
             ">Tenemos soluciones personalizadas para tu negocio.</div>
         </h1>
@@ -64,7 +63,7 @@ export function Hero() {
         <h2 className="
           md:hidden
           font-avenir-light
-          text-lg
+          text-xl
           text-center
           pt-4
           ">Tenemos soluciones personalizadas para tu negocio.</h2>
@@ -93,22 +92,24 @@ export function Hero() {
         </div>
       </div>
       <div className="
+        md:flex 
+        md:flex-col 
+        hidden
         2xl:text-xl
         mt-16
         text-center
-        flex flex-col justify-center
+        justify-center
         ">
-        <Link href="test">
-          <div>
+        <Link className="" 
+          href="test">
+          <div className="inline-block">
             <div className="
               w-[110.2px]
               h-[63.35px]
-              hidden
-              md:inline-block
               relative
               ">
               <Image
-                src="https://placehold.co/111x64.png"
+                src="https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/youtube_hero.svg"
                 fill
                 alt="youtube"
 
