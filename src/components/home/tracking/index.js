@@ -4,10 +4,10 @@ import Link from 'next/link';
 export function Tracking() {
   return (
     <article 
-      style={{backgroundPosition: 'right 39% bottom -12'}}
+      style={{backgroundPosition: 'right 39% bottom 2%'}}
       className="
       p-5
-      pb-20
+      pb-40
       bg-[url('https://s3.us-west-2.amazonaws.com/www.duyou.com.mx/assets/ship_home.svg')]
       bg-no-repeat
       ">
